@@ -1,0 +1,729 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    <link rel="stylesheet" href="compact-gallery.css">
+	
+	
+
+	
+	<style>
+.con-form {
+    width: 55%;
+    padding: 30px;
+    background: #eaeaea;
+}
+li.social__item a {
+    font-size: 32px;
+    color: #f2f8f8;
+}
+
+nav.navigation__menu.menu {
+    margin-top: -80px;
+}
+.pup li a {
+    font-size: 50px;
+    color: #4e403a;
+}
+.opasity {
+    width: 100%;
+    background: #00000094;
+    /* position: absolute; */
+    z-index: 111111;
+    display: block;
+    padding: 100px;
+}
+.contact2 {
+    background-color: #755e49;
+    color: #fff;
+}
+
+.disnone{display:none;}
+
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+.contact__info a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.contact__info a:hover {
+      color: #ffffff;
+    text-decoration: none;
+}
+	img.img-fluid.image {
+    width: 390px;
+    height: 260px;
+}
+
+
+img.logo__img {
+    width: 200px;
+}
+
+
+
+
+
+
+	</style>
+	
+	
+	<!-- form css -->
+		
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__content">
+            <p class="preloader__text">loading</p>
+            <div class="preloader__ring"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <div class="header__btnbox">
+                        <button class="header__btnopen" type="button" aria-label="Open Menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+							 <span></span>
+                        </button>
+                    </div>
+                    <div class="header__logo logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <a class="header__button button popup-link" href="#popup" data-hover="Log In">Log In</a>
+                </div>
+            </div>
+        </header>
+        <div class="navigation">
+            <div class="navigation__box">
+                <button class="navigation__btnclose btnclose" type="button" aria-label="Close Menu">
+                    <img src="images/close-icon.svg" alt="cross icon">
+                </button>
+                <nav class="navigation__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#hero" href="#" data-hover="Home">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#services" href="#" data-hover="Services">Services</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#about" href="#" data-hover="About">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#team" href="#" data-hover="Team">Team</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#gallery" href="#" data-hover="Projects">Projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" data-scrollto="#contact" href="#" data-hover="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+							<ul class="contact__social social pup">
+                                <li class="social__item">
+                                    <a class="fa-brands fa-instagram"" href="#" data-hover="Instagram"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="fa-brands fa-facebook" href="#" data-hover="Facebook"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="fa-brands fa-linkedin" href="#" data-hover="LinkedIn"></a>
+                                </li>
+                            </ul>
+            </div>
+        </div>
+        <main class="main">
+            <section class="main__hero hero _section" id="hero">
+                <div class="hero__container">
+                    <div class="hero__body">
+                        <h1 class="hero__title">
+                            Modern Portfolio & Vinyl Wallcovering Site
+                           <span class="hero__span hero__span--1">Interior Vinyl Wallcovering design ideas</span>
+                        </h1>
+                        <a class="hero__link menu__link" data-scrollto="#features" href="#" aria-label="Scroll Down">
+                            <img src="images/arrow-down-icon.svg" alt="arrow down icon">
+                        </a>                
+                    </div>
+                </div>
+            </section>
+            <section class="main__features features _section" id="features">
+                <div class="features__container">
+                    <div class="features__bg-decor"></div>
+                    <div class="features__body">
+                        <div class="features__list">   
+                            <div class="features__item" data-aos="fade-left">
+                                <div class="features__card card">
+                                    <div class="card__front">
+                                        <img class="card__icon" src="images/building-icon.svg" alt="building icon">
+                                        <h3 class="card__title">Modern designs</h3>
+                                    </div>
+                                    <div class="card__back">
+                                        <p class="card__text">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>                           
+                            <div class="features__item" data-aos="fade-up">
+                                <div class="features__card card">
+                                    <div class="card__front">
+                                        <img class="card__icon" src="images/settings-icon.svg" alt="settings icon">
+                                        <h3 class="card__title">Full service</h3>
+                                    </div>
+                                    <div class="card__back">
+                                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features__item" data-aos="fade-right">
+                                <div class="features__card card">
+                                    <div class="card__front">
+                                        <img class="card__icon" src="images/people-icon.svg" alt="people icon">
+                                        <h3 class="card__title">Professional team</h3>
+                                    </div>
+                                    <div class="card__back">
+                                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features__item" data-aos="fade-up">
+                                <div class="features__card card">
+                                    <div class="card__front">
+                                        <img class="card__icon" src="images/partnership-icon.svg" alt="partnership icon">
+                                        <h3 class="card__title">Partners</h3>
+                                    </div>
+                                    <div class="card__back">
+                                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nihil.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features__info">
+                            <h2 class="features__heading heading">Why choose us</h2>
+                            <div class="features__text">
+                                <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__services services _section" id="services">
+                <div class="services__container">
+                    <h2 class="services__heading heading">Services we provide</h2>                    
+                    <div class="services__body">
+                        <div class="services__img" data-aos="fade-right">
+                            <img src="https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg?t=st=1731136026~exp=1731139626~hmac=186daef91f3cc457db3073cb50cef9e3d32c313fa6ff7afa944bffc1747dd352&w=1380" alt="service 1">
+                        </div>
+                        <div class="services__block">
+                            <div class="services__item service">
+                                <button class="service__label">Full service design</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                                </div>
+                            </div>
+                            <div class="services__item service">
+                                <button class="service__label">Furnishing</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                                </div>
+                            </div>
+                            <div class="services__item service">
+                                <button class="service__label">Styling &amp; decor</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="services__body services__body--reverse">
+                        <div class="services__img" data-aos="fade-left">
+                            <img src="https://cdn.pixabay.com/photo/2018/07/24/08/05/exterior-3558640_1280.jpg" alt="service 2">
+                        </div>
+                        <div class="services__block">
+                            <div class="services__item service">
+                                <button class="service__label">Consultation</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                                </div>
+                            </div>
+                            <div class="services__item service">
+                                <button class="service__label">Project managment</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem.</p>
+                                </div>
+                            </div>
+                            <div class="services__item service">
+                                <button class="service__label">Installation</button>
+                                <div class="service__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </section>
+            <section class="main__banner banner _section" id="banner" data-aos="fade-up">
+                <div class="banner__container">
+                    <div class="banner__body">
+                        <div class="banner__content">
+                            <h2 class="banner__title">Get first consultation free</h2>
+                            <div class="banner__text">
+                                <p>Lorem ipsum dolor sit amet consectetur. Augue a habitant ultrices nunc ullamcorper pharetra.</p>  
+                            </div>
+                            <a class="banner__button button popup-link" href="#popup" data-hover="Book now">Book now</a>
+                        </div>
+                        <div class="banner__img banner__img--1">
+                            <img src="https://cdn.pixabay.com/photo/2016/04/18/08/58/new-england-1336173_640.jpg" alt="banner-1">
+                        </div>
+                        <div class="banner__img banner__img--2">
+                            <img src="https://cdn.pixabay.com/photo/2017/10/07/10/23/beautiful-home-2826052_640.jpg" alt="banner-2">
+                        </div>
+                        <div class="banner__img banner__img--3">
+                            <img src="https://cdn.pixabay.com/photo/2016/08/16/03/50/exterior-1597098_640.jpg" alt="banner-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about about" id="about">
+                <div class="about__container">
+                    <div class="about__bg-decor" data-aos="fade-right"></div>
+                    <div class="about__body">
+                        <div class="about__img" data-aos="fade-down" data-aos-duration="1200">
+                            <img src="https://cdn.pixabay.com/photo/2019/02/25/13/04/house-4019638_960_720.jpg" alt="about image">
+                        </div>
+                        <div class="about__content" data-aos="fade-up">
+                            <h2 class="about__heading heading">About us</h2>
+                            <div class="about__text">
+                                <p>Lorem ipsum dolor sit amet consectetur. Facilisis in iaculis ac enim morbi eget. Eget nunc dolor placerat at. At eget in nunc neque nibh integer neque quisque lorem. Tellus et semper risus amet consequat quisque amet enim.</p>
+                            </div>
+                            <a class="about__link button" href="#" data-hover="Read more">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__team team _section" id="team" data-aos="fade-up">
+                <div class="team__container">
+                    <h2 class="team__heading heading">Team members</h2>
+                    <div class="team__body">
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-1.jpg" alt="Leslie Alexander">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Leslie Alexander</h3>
+                                    <p class="item-team__prof">Senior designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-2.jpg" alt="Albert Flores">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Albert Flores</h3>
+                                    <p class="item-team__prof">Junior designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-3.jpg" alt="Kristin Watson">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Kristin Watson</h3>
+                                    <p class="item-team__prof">Principal designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-4.jpg" alt="Sam Hawkins">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Sam Hawkins</h3>
+                                    <p class="item-team__prof">Director of operations</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-5.jpg" alt="Claudia Murphy">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Claudia Murphy</h3>
+                                    <p class="item-team__prof">Design project manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-6.jpg" alt="Jan Cooper">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Jan Cooper</h3>
+                                    <p class="item-team__prof">Financial controller</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-7.jpg" alt="Jenny Wilson">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Jenny Wilson</h3>
+                                    <p class="item-team__prof">Stylist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item item-team">
+                            <div class="item-team__image">
+                                <img src="images/team-8.jpg" alt="Annette Black">
+                                <div class="item-team__info">
+                                    <h3 class="item-team__name">Annette Black</h3>
+                                    <p class="item-team__prof">Design assistant</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			
+			
+			
+			
+			
+			
+
+<!-- Gallery -->
+
+
+<section class="gallery-block compact-gallery" style="margin-bottom: 100px;">
+        <div class="container" > 
+            <div class="heading">
+                <h2>Compact Gallery</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://img.freepik.com/free-photo/road-city_1417-1426.jpg?t=st=1731136667~exp=1731140267~hmac=93cd6429a6eca57430c1b04edde4e02407676660b2c3509ce395235131c062ba&w=1380">
+                        <img class="img-fluid image" src="https://img.freepik.com/free-photo/road-city_1417-1426.jpg?t=st=1731136667~exp=1731140267~hmac=93cd6429a6eca57430c1b04edde4e02407676660b2c3509ce395235131c062ba&w=1380">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2012/03/04/00/18/beautiful-21864_1280.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2012/03/04/00/18/beautiful-21864_1280.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2012/03/04/00/18/beautiful-21864_1280.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2012/03/04/00/18/beautiful-21864_1280.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2017/12/10/03/18/beautiful-3009151_960_720.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2017/12/10/03/18/beautiful-3009151_960_720.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                        </a>
+                    </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2014/03/18/23/21/brick-home-290315_1280.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2014/03/18/23/21/brick-home-290315_1280.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2014/03/28/00/01/brick-house-299767_960_720.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2014/03/28/00/01/brick-house-299767_960_720.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_1280.jpg">
+                        <img class="img-fluid image" src="https://cdn.pixabay.com/photo/2014/08/03/23/41/house-409451_1280.jpg">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?t=st=1731136540~exp=1731140140~hmac=1043fede6062de833e4374e9c31a8663203bd983f9d9df10b63a983cbb490a80&w=1380">
+                        <img class="img-fluid image" src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?t=st=1731136540~exp=1731140140~hmac=1043fede6062de833e4374e9c31a8663203bd983f9d9df10b63a983cbb490a80&w=1380">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="https://img.freepik.com/free-photo/way-white-house_1162-117.jpg?t=st=1731136579~exp=1731140179~hmac=b85560f951ea7b3c07607942b514eb9ad007f09985961e1bd64ad296062e7a9a&w=1380">
+                        <img class="img-fluid image" src="https://img.freepik.com/free-photo/way-white-house_1162-117.jpg?t=st=1731136579~exp=1731140179~hmac=b85560f951ea7b3c07607942b514eb9ad007f09985961e1bd64ad296062e7a9a&w=1380">
+                        <span class="description">
+                            <span class="description-heading">Lorem Ipsum</span>
+                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Gallery -->
+
+
+
+            <section class="main__newsletter newsletter _section" id="newsletter">
+                <div class="newsletter__container">
+                    <h2 class="newsletter__heading heading" data-aos="fade-right">Subscribe to newsletters</h2>
+                    <div class="newslettet__text" data-aos="fade-left">
+                        <p>Lorem ipsum dolor sit amet consectetur. Elementum enim sit cras ac in metus.</p>
+                    </div>
+                    <form class="newsletter__form form" action="#" data-aos="fade-up">
+                        <div class="form__item">
+                            <label class="visually-hidden" for="subscribe">Subscribe to newsletters</label>
+                            <input class="form__input" id="subscribe" type="email" placeholder="Your email address" required="">
+                        </div>
+                        <button class="newsletter__button button" type="submit" data-hover="Subscribe" aria-label="Subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <section class="main__testimonials testimonials _section" id="testimonial">
+                <div class="testimonials__container">
+                    <h2 class="testimonials__heading heading">Customer’s review</h2>
+                    <div class="testimonials__slider slider-testimonial swiper">                        
+                        <div class="slider-testimonial__wrapper swiper-wrapper">
+                            <div class="slider-testimonial__slide swiper-slide">
+                                <div class="slider-testimonial__inner">
+                                    <div class="slider-testimonial__info">
+                                        <div class="slider-testimonial__text">
+                                            <p>"Lorem ipsum dolor sit amet consectetur. Elementum enim sit cras ac in metus pellentesque est. Turpis ullamcorper nunc hendrerit adipiscing."</p>
+                                        </div>
+                                        <h3 class="slider-testimonial__name">Leslie Alexander</h3>
+                                        <p class="slider-testimonial__prof">Customer</p>
+                                    </div>
+                                    <div class="slider-testimonial__img">
+                                        <img src="images/testimonial-1.jpg" alt="Leslie Alexander">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-testimonial__slide swiper-slide">
+                                <div class="slider-testimonial__inner">
+                                    <div class="slider-testimonial__info">
+                                        <div class="slider-testimonial__text">
+                                            <p>"Lorem ipsum dolor sit amet consectetur. Elementum enim sit cras ac in metus pellentesque est. Turpis ullamcorper nunc hendrerit adipiscing."</p>
+                                        </div>
+                                        <h3 class="slider-testimonial__name">Marvin McKinney</h3>
+                                        <p class="slider-testimonial__prof">Customer</p>
+                                    </div>
+                                    <div class="slider-testimonial__img">
+                                        <img src="images/testimonial-2.jpg" alt="Marvin McKinney">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-testimonial__slide swiper-slide">
+                                <div class="slider-testimonial__inner">
+                                    <div class="slider-testimonial__info">
+                                        <div class="slider-testimonial__text">
+                                            <p>"Lorem ipsum dolor sit amet consectetur. Elementum enim sit cras ac in metus pellentesque est. Turpis ullamcorper nunc hendrerit adipiscing."</p>
+                                        </div>
+                                        <h3 class="slider-testimonial__name">Theresa Webb</h3>
+                                        <p class="slider-testimonial__prof">Customer</p>
+                                    </div>
+                                    <div class="slider-testimonial__img">
+                                        <img src="images/testimonial-3.jpg" alt="Theresa Webb">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-testimonial__slide swiper-slide">
+                                <div class="slider-testimonial__inner">
+                                    <div class="slider-testimonial__info">
+                                        <div class="slider-testimonial__text">
+                                            <p>"Lorem ipsum dolor sit amet consectetur. Elementum enim sit cras ac in metus pellentesque est. Turpis ullamcorper nunc hendrerit adipiscing."</p>
+                                        </div>
+                                        <h3 class="slider-testimonial__name">Devon Lane</h3>
+                                        <p class="slider-testimonial__prof">Customer</p>
+                                    </div>
+                                    <div class="slider-testimonial__img">
+                                        <img src="images/testimonial-4.jpg" alt="Devon Lane">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__contact contact2" id="contact" style="background: url(https://cdn.pixabay.com/photo/2017/11/16/19/29/cottage-2955582_1280.jpg);    background-size: cover;    background-repeat: no-repeat;">
+				<div class="opasity">
+						<div class="contact__container">
+							<div class="contact__body">
+								<div class="contact__info">
+									<h2 class="contact__heading heading">Contact us</h2>
+									<ul class="contact__list">
+										<li class="contact__item">
+											<h3 class="contact__title">Address</h3>
+											<a class="contact__link" href="#">000 Washington Ave. Manchester, <br> Kentucky 0000</a>
+										</li>
+										<li class="contact__item">
+											<h3 class="contact__title">Phone</h3>
+											<a class="contact__link" href="tel:2295550109">(000) 0000-0000</a>
+										</li>
+										<li class="contact__item">
+											<h3 class="contact__title">Email</h3>
+											<a class="contact__link" href="mailto:info@minimalist.com">info@minimalist.com</a>
+										</li>
+									</ul>
+									<ul class="contact__social social">
+										<li class="social__item">
+											<a class="fa-brands fa-instagram"" href="#" data-hover="Instagram"></a>
+										</li>
+										<li class="social__item">
+											<a class="fa-brands fa-facebook" href="#" data-hover="Facebook"></a>
+										</li>
+										<li class="social__item">
+											<a class="fa-brands fa-linkedin" href="#" data-hover="LinkedIn"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="con-form">
+												<form class="popup__form form">
+										
+
+													<h2 class="form__title">Get in touch</h2>
+													<div class="form__item">
+														<label class="visually-hidden" for="userName">Your Name</label>
+														<input class="form__input" name="name" id="userName" type="text" autocomplete="given-name" placeholder="Your name" required="">
+													</div>
+													<div class="form__item">
+														<label class="visually-hidden" for="userEmail">Email address</label>
+														<input class="form__input" name="email" id="userEmail" type="email" autocomplete="email" placeholder="Email address" required="">
+													</div>
+													<div class="form__item">
+														<label class="visually-hidden" for="userPhone">Phone number</label>
+														<input class="form__input" name="phone" id="userPhone" type="tel" autocomplete="tel" placeholder="Phone number" required="">
+													</div>
+													<div class="form__item">
+														<label class="visually-hidden" for="userMessage">Your message</label>
+														<textarea class="form__textarea" name="message" id="userMessage" autocomplete="off" placeholder="Your message"></textarea>
+													</div>
+													<button class="form__submit button" type="submit" data-hover="Submit" aria-label="Submit">Submit</button>
+												</form>						
+							
+								
+								
+														
+									<!-- <img src="images/contact-img.jpg" alt="contact image"> -->
+								</div>
+							</div>
+						</div>
+				</div>
+            </section>
+        </main>
+        <footer class="footer" id="footer"> 
+            <div class="footer__container">
+                <p class="footer__copyright">Copyright © 2024 Aminur Islam . All rights reserved.</p>
+            </div>
+        </footer>
+        <button class="scroll-top">
+            <img src="images/arrow-top-icon.svg" alt="arrow top icon">
+        </button>
+    </div>
+    <section class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button class="popup__btnclose btnclose close-popup" type="button" aria-label="Close Popup">
+                    <img src="images/close-icon.svg" alt="cross icon">
+                </button>
+                <form class="popup__form form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Minimalist">
+                    <input type="hidden" name="admin_email" value="na_studio@a94239.hostus01.fornex.host">
+                    <input type="hidden" name="form_subject" value="Contact form">
+                    <!-- END Hidden Required Fields -->
+
+                    <h2 class="form__title">Log In</h2>
+                    <div class="form__item">
+                        <label class="visually-hidden" for="userName"></label>
+                        <input class="form__input " name="name" id="userName" type="text" autocomplete="given-name" placeholder="Your name" required="">
+						
+                    </div>
+                    <div class="form__item">
+                        <label class="visually-hidden" for="userEmail">Enter Your Password</label>
+                        <input class="form__input " name="password" id="userpassword" type="password" autocomplete="password" placeholder="Password" required="">
+						<span class="focus-input100"></span>
+                    </div>
+<!--                     <div class="form__item">
+                        <label class="visually-hidden" for="userPhone">Phone number</label>
+                        <input class="form__input " name="phone" id="userPhone" type="tel" autocomplete="tel" placeholder="Phone number" required="">
+						<span class="focus-input100"></span>
+                    </div>
+                    <div class="form__item">
+                        <label class="visually-hidden" for="userMessage">Your message</label>
+                        <textarea class="form__textarea " name="message" id="userMessage" autocomplete="off" placeholder="Your message"></textarea>
+						
+                    </div> -->
+                    <button class="form__submit button" type="submit" data-hover="Submit" aria-label="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	</script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.compact-gallery', { animation: 'slideIn'});
+    </script>
+	
+
+</body></html>
